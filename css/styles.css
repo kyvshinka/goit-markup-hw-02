@@ -1,0 +1,226 @@
+:root {
+  --accent-color: #2196f3;
+  --main-color: #212121;
+  --secondary-color: #757575;
+  --contrast-color: #ffffff;
+  --background-color: #2f303a;
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+body {
+  font-family: var(--main-font);
+  color: var(--main-color);
+}
+
+/*---------COMPONENTS---------*/
+.logo-part {
+  color: var(--accent-color);
+}
+.section-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/*---------END COMPONENTS---------*/
+
+/*---------HEADER---------*/
+
+.logo-link {
+  font-family: var(--secondary-font);
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+.mail-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+.mail-link:hover,
+.mail-link:focus {
+  color: var(--accent-color);
+}
+.tel-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+.tel-link:hover,
+.tel-link:focus {
+  color: var(--accent-color);
+}
+/*---------END HEADER---------*/
+
+/*---------HERO---------*/
+
+.hero {
+  background-color: var(--background-color);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--contrast-color);
+}
+.modal-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: var(--accent-color);
+  color: var(--contrast-color);
+  cursor: pointer;
+}
+.modal-btn:hover {
+  background-color: #188ce8;
+}
+
+/*---------END HERO---------*/
+
+/*---------BENEFITS---------*/
+.benefits-item-title {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.benefits-item-description {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+
+/*---------END BENEFITS---------*/
+
+/*---------TEAM---------*/
+.team-item-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-item-description {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+
+/*---------END TEAM---------*/
+
+/*---------FOOTER---------*/
+.footer {
+  background-color: var(--background-color);
+}
+.footer-logo-link {
+  font-family: var(--secondary-font);
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--contrast-color);
+}
+.map-link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--contrast-color);
+}
+.map-link:hover,
+.map-link:focus {
+  color: var(--accent-color);
+}
+.footer-mail-link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+.footer-mail-link:hover,
+.footer-mail-link:focus {
+  color: var(--accent-color);
+}
+.footer-tel-link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+.footer-tel-link:hover,
+.footer-tel-link:focus {
+  color: var(--accent-color);
+}
+/*---------END FOOTER---------*/
+
+/*---------PORTFOLIO---------*/
+
+.filter-btn {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--contrast-color);
+  background-color: var(--accent-color);
+}
+.portfolio-item-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-item-descroption {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+.filter-btn {
+  cursor: pointer;
+}
+
+/*---------END PORTFOLIO---------*/
